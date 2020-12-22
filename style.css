@@ -1,10 +1,12 @@
 body {
   background: black;
+  transition-duration: 0.9s;
 }
 #text{
     color:black;
     font-size: 20px;
     text-align: center;
+    transition-duration: 0.9s;
 }
 #quote-box {
   position: absolute;
@@ -16,6 +18,7 @@ body {
   background: rgb(248, 245, 245);
   box-sizing: border-box;
   border-radius: 3px;
+  transition-duration: 0.9s;
 }
 #new-quote {
     right: 7%;
@@ -27,7 +30,11 @@ button {
     padding: 7px;
     border-radius: 3px;
     outline: none;
+    color: white;
+    transition-duration: 0.9s;
+    cursor: pointer;
 }
 #email {
     left: 7%;
 }
+
