@@ -56,7 +56,7 @@ function shareWhatsapp() {
   window.open("https://web.whatsapp.com/send?text=" + shuffleQuote(quoteList));
 }
 function shareTwitter() {
-  window.open("http://twitter.com/share?text=" + shuffleQuote(quoteList));
+  window.open("https://twitter.com/intent/tweet?text=" + shuffleQuote(quoteList));
 }
 newQuote.addEventListener("click", newQuoteGenerator);
 newQuote.addEventListener("click", colourChange);
